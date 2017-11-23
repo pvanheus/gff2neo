@@ -24,8 +24,8 @@ services:
       - "7474:7474"
   es:
     restart: always
-    image: elasticsearch:2.4
-    # build: ./es/
+#    image: elasticsearch:2.4
+    build: ./es/
     volumes:
       - es_data:/usr/share/elasticsearch/data
     ports:
