@@ -98,3 +98,6 @@ Chromosome	ena	CDS	18759	20234	.	-	0	ID=CDS:CCP42738;Parent=transcript:CCP42738;
 Chromosome	ena	gene	20231	21640	.	-	.	ID=gene:Rv0017c;Name=rodA;biotype=protein_coding;description=Probable cell division protein RodA;gene_id=Rv0017c;logic_name=ena;version=1
 Chromosome	ena	transcript	20231	21640	.	-	.	ID=transcript:CCP42739;Parent=gene:Rv0017c;Name=rodA-1;biotype=protein_coding;transcript_id=CCP42739;version=1
 Chromosome	ena	exon	20231	21640	.	-	.	Parent=transcript:CCP42739;Name=CCP42739-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=CCP42739-1;rank=1;version=1
+Chromosome	ena	pseudogene	333160	333417	.	-	.	ID=gene:Rv0277A;Name=vapB25;biotype=pseudogene;description=Possible antitoxin VapB25;gene_id=Rv0277A;logic_name=ena;version=1
+Chromosome	ena	pseudogene	333160	333417	.	-	.	ID=transcript:Rv0277A;Parent=gene:Rv0277A;Name=vapB25-1;biotype=pseudogene;transcript_id=Rv0277A;version=1
+Chromosome	ena	exon	333160	333417	.	-	.	Parent=transcript:Rv0277A;Name=Rv0277A-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=Rv0277A-1;rank=1;version=1
